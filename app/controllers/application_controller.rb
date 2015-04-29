@@ -6,4 +6,8 @@ class ApplicationController < ActionController::Base
   def hello
   	render text: "Hello, this is my first rails app! Further changes will be made in a few weeks."
   end
+
+  def hello_non_ascii
+  	render text: "\u00A1Hello, this is my first rails app! Further changes will be made in a few weeks."
+  end
 end
