@@ -24,6 +24,10 @@
   </tbody>
 </table>
 
+<% if @users.size == 0 %>
+  <p><em> No Users found </em></p>
+<% end %>
+
 <br>
 
 <%= link_to 'New User', new_user_path %>
