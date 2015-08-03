@@ -24,3 +24,5 @@ doc/
 .project
 .idea
 .secret
+.ruby-gemset
+.ruby-version
